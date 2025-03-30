@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delicioso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff5722;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .menu-item {
+            width: 250px;
+            margin: 15px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Carrito</a>
+        <a href="#">Pagar</a>
+    </nav>
+
+    <h1>Bienvenido a Restaurante Delicioso</h1>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://www.pizzahut.com/assets/w/images/cheese-pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>Deliciosa pizza con queso y pepperoni.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://baconismagic.ca/wp-content/uploads/2021/06/best-hamburger-recipe-500x500.jpg" alt="Hamburguesa">
+            <h3>Hamburguesa</h3>
+            <p>Jugosa hamburguesa con ingredientes frescos.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.sushishop.cl/wp-content/uploads/2020/06/SUSHI-SHOP-74.jpg" alt="Sushi">
+            <h3>Sushi</h3>
+            <p>Exquisito sushi con los mejores ingredientes.</p>
+        </div>
+    </div>
+</body>
+</html>
